@@ -8,7 +8,7 @@ export const useValue: UseValue = <TValue>(initialValue) => {
   const [reference, setReference] = useState(0)
 
   useEffect(() => {
-    return value.listen(() => setReference((previous) => previous + 1), false)
+    return value.listen(() => setReference((previous) => previous + 1))
   }, [])
 
   return value
