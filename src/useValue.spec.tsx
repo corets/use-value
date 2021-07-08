@@ -152,11 +152,5 @@ describe("useValue", () => {
     expect(target().text()).toBe("2")
     expect(value.get()).toBe(2)
     expect(renders).toBe(4)
-
-    act(() => value.reset(5))
-
-    expect(target().text()).toBe("5")
-    expect(value.get()).toBe(5)
-    expect(renders).toBe(5)
   })
 })
