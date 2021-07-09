@@ -1,4 +1,4 @@
-import { isFunction } from "lodash-es"
+import { isFunction } from "lodash"
 import { createValue, ObservableValue, Value } from "@corets/value"
 import { ValueInitializer } from "./types"
 
