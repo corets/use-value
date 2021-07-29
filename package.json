@@ -21,7 +21,7 @@
     "/dist"
   ],
   "repository": "github:corets/use-value",
-  "homepage": "https://corets.github.io/use-value",
+  "homepage": "https://docs.corets.io/hooks/use-value",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
